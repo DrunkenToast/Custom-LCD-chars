@@ -1,3 +1,6 @@
+#ifndef CustomLCDcharsEmoji_H
+#include "CustomLCDcharsEmoji.h
+
 // # People and faces
 byte Person[8] = {
     B01110,
@@ -216,3 +219,5 @@ byte Mouse[] = {
     B10001, 
     B01110
 };
+
+#undef

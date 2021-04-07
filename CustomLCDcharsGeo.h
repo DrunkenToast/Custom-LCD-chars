@@ -1,3 +1,6 @@
+#ifndef CustomLCDcharsGeo_H
+#include "CustomLCDcharsGeo.h"
+
 // Weather
 byte Cloud2x1[2][8] = { 
     { 
@@ -219,3 +222,5 @@ byte Worldmap2x6[12][8] = {
     { B01011, B01000, B00010, B00010, B00000, B00000, B00000, B00000 },
     { B00000, B00000, B10000, B00010, B00000, B01110, B11110, B00101 }
 }
+
+#undef

@@ -1,3 +1,6 @@
+#ifndef CustomLCDcharsUtil_H
+#include "CustomLCDcharsUtil.h"
+
 // # General util
 byte Loadingbar[7][8] = {
     // # Empty
@@ -467,3 +470,5 @@ byte Hourglass[3][8] = {
         B00000
     }
 }
+
+#endif
